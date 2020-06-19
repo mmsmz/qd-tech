@@ -1,0 +1,55 @@
+name = "Meghna Hugo"
+license = "CC BY 3.0"
+licenselink = "https://creativecommons.org/licenses/by/3.0/"
+description = "Hugo port of the Themefisher’s Meghna Template"
+homepage = "https://themefisher.com/hugo-themes/"
+tags = ['landing-page', 'google-analytics', 'fast', 'modern', 'minimal', 'minimalistic', 'business', 'agency-template', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'portfolio', 'single-page', 'dark', 'clean', 'simple', 'company', 'creative', 'contact-form', 'custom-themes', 'mobile']
+features = ['bootstrap','responsive']
+min_version = "0.55"
+
+
+title = "Welcome to Quadrate Tech Guru | Free Tech School"
+theme = "Meghna-Hugo"
+summaryLength = 25
+copyright = "M.F.M Fazrin - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+disqusShortname = "M.F.M Fazrin"
+googleAnalytics = "43654026"
+
+[params]
+  logo = "/images/logo.png"
+  description ="New Definition of blogging!"
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "M.F.M Fazrin"
+  thumbnail = "/images/mypic.jpg"
+  description = "Content Posted By"
+
+[params.index]
+  picture = "/images/authorpost.png"
+  title = "M.F.M Fazrin"
+  subtitle = "Passionate Software Engineer & Full Stack Developer"
+  mdtext = '''A dedicated and energetic individual seeking to join as a software engineer to contribute to the delivery of high quality software solutions. visit my <a href="https://fazrin0772049123.web.app/">profile & portfolio</a> link if you are interested know more about me'''
+  alertbar = false
+
+[params.social]
+  github = "nirzaf"
+  linkedin = "mfmfazrin"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
+
+[params.adsense]
+client = "ca-pub-5415404685631285"
+inArticleSlot = "5497557054"
